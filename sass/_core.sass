@@ -1,0 +1,215 @@
+@import _vars
+
+*
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+
+html
+  font-family: 'Stolzl', sans-serif
+  font-size: 14px
+  font-style: normal
+  font-weight: 400
+  color: $white
+
+
+a
+  text-decoration: none
+  color: $white
+
+
+.container  
+  width: 1296px
+  margin: 0 auto
+
+
+.wrapper  
+  background-color: $black
+
+
+.head  
+  padding-top: 30px
+
+
+.head .container 
+  display: flex
+  justify-content: space-between
+  align-items: center
+  align-content: center
+  width: 1305px
+
+
+.container--small  
+  width: 1078px
+  margin: 0 auto
+
+.booking-box
+  position: relative
+  &__form
+    display: none
+    position: absolute
+    z-index: 100
+    align-items: center
+    justify-content: space-between
+    flex-direction: column
+    padding: 30px 0
+    width: 400px
+    height: 400px
+    background-color: $black
+    border-radius: 10px
+    border: 2px solid $accent
+    left: -210px
+    top: 60px
+    div
+      text-align: center
+      font-size: 1.3rem
+      p
+        margin-bottom: 20px
+    input
+      width: 350px
+      height: 50px
+      background-color: $none-black
+      border-radius: 5px
+      border: 2px solid $accent
+      text-align: left
+      padding-left: 10px
+      color:$white
+      font-family: 'Stolzl'
+      font-size: 1rem
+      font-style: normal
+      font-weight: 400
+      line-height: 150% /* 21px */
+      letter-spacing: 0.7px
+    button
+      padding: 15px 30px
+      border-radius: 5px
+      border: 2px solid $accent
+      background-color: rgba(0, 0, 0, 0)
+      cursor: pointer
+      text-align: center
+      color:$white
+      font-family: 'Stolzl'
+      font-size: 1rem
+      font-style: normal
+      font-weight: 400
+      line-height: 150% /* 21px */
+      letter-spacing: 0.7px
+      text-transform: uppercase
+      &:hover
+        background-color: $none-black
+
+
+.booking  
+  display: flex
+  width: 188px
+  height: 51px
+  padding: 15px 30px
+  align-items: flex-start
+  gap: 10px
+  flex-shrink: 0
+  border-radius: 5px
+  border: 2px solid $accent
+  background-color: rgba(0, 0, 0, 0)
+  cursor: pointer
+  &:hover
+    background-color: $none-black
+
+
+.booking span  
+  color:$white
+  font-family: 'Stolzl'
+  font-size: 1rem
+  font-style: normal
+  font-weight: 400
+  line-height: 150% /* 21px */
+  letter-spacing: 0.7px
+  text-transform: uppercase
+
+
+.nav  
+  display: flex
+  width: 559px
+  height: 21px
+  align-items: flex-start
+  gap: 30px
+  
+  a
+    &:hover
+      color: $accent
+
+.heading--center  
+  text-align: center
+
+
+.footer__inner  
+  display: flex
+  justify-content: space-between
+  gap: 24px
+  padding-bottom: 100px
+  margin: 80px auto 0
+  border-bottom: 1px solid rgba(255, 255, 255, 0.504)
+
+
+
+.footer__left  
+  padding: 50px
+  border-radius: 5px
+  border: 2px solid $accent
+  background: rgba(213, 98, 29, 0.10)
+
+
+.footer__heading  
+  margin-bottom: 20px
+  color: #FFF
+  font-family: 'Gotham Pro'
+  font-size: 18px
+  font-style: normal
+  font-weight: 700
+  line-height: 150% /* 27px */
+  letter-spacing: 0.9px
+  text-transform: uppercase
+
+
+
+.footer__text  
+  margin-bottom: 35px
+  color: #FFF
+
+    /* p/14r */
+  font-family: 'Stolzl'
+  font-size: 14px
+  font-style: normal
+  font-weight: 400
+  line-height: 150% /* 21px */
+
+
+.map
+  border-radius: 5px
+  border: 2px solid $accent
+  width: 856px
+  background-image: url(../img/map.jpg)
+  background-position: top center
+  background-size: cover
+
+.copy
+  margin-top: 30px
+  padding-bottom: 30px
+  color: rgba(255, 255, 255, 0.504)
+
+.top
+  margin: 0 auto 40px
+  display: flex
+  justify-content: center
+  align-items: center
+  height: 38px
+  width: 244px
+  left: 189px
+  padding: 10px, 20px, 7px, 20px
+  border-radius: 5px
+  gap: 10px
+  color: $black
+  background-color: $white
+  font-family: Gotham Pro
+  letter-spacing: 0.05em
+  text-align: center
+  text-transform: uppercase

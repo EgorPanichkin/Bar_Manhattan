@@ -1,0 +1,62 @@
+@import _vars
+@import _core
+
+.main
+  margin-top: 55px
+  &__header
+    font-family: 'Gotham Pro'
+    font-size: 40px
+    font-weight: 400
+    line-height: 60px
+    letter-spacing: 0.05em
+    text-align: center
+    text-transform: uppercase
+    margin-bottom: 80px
+
+.inner
+  display: flex
+  align-items: center
+  justify-content: space-between
+  flex-wrap: wrap
+  gap: 24px
+  margin-bottom: 150px
+  &__item
+    position: relative
+    width: 306px
+    height: 350px
+
+.more
+  display: none
+  width: 306px
+  height: 350px
+  justify-content: center
+  align-items: center
+  position: absolute
+  left: 0
+  top: 0
+  background-color: #000000ba
+
+.button
+  background-color: #ffffff00
+  border: none
+  cursor: pointer
+
+.active
+  display: flex
+
+.mask
+  display: none
+  position: fixed
+  width: 100vw
+  height: 100vh
+  left: 0
+  top: 0
+  z-index: 5
+  background-color: #000000d5
+
+.big-image
+  z-index: 10
+  position: fixed
+  zoom: 190%
+  top: 10px
+  left: 30%

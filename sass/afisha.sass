@@ -1,0 +1,77 @@
+@import _vars
+@import _core
+
+.first-screen
+  margin-top: 55px
+  margin-bottom: 150px
+  h2
+    font-family: 'Gotham Pro'
+    font-size: 40px
+    font-weight: 400
+    line-height: 60px
+    letter-spacing: 0.05em
+    text-align: center
+    text-transform: uppercase
+    margin-bottom: 80px
+
+  .posters
+    display: flex
+    flex-wrap: wrap
+    gap: 24px
+    .post
+      position: relative
+      display: flex
+      width: 306px
+      height: 350px
+      cursor: pointer
+
+    .info
+      display: none
+      position: absolute
+      width: 306px
+      height: 350px
+      left: 0px
+      top: 0px
+      background-color: #000000ba
+      cursor: default
+      &__inner
+        position: absolute
+        left: 35px
+        bottom: 32px
+
+      .date
+        display: flex
+        justify-content: space-between
+        align-items: center
+        width: 174px
+        height: 35px
+        padding: 8px 15px
+        border-radius: 5px
+        gap: 8px
+        font-family: 'Gotham Pro'
+        letter-spacing: 0.05em
+        background-color: $accent
+
+      .title
+        margin: 15px 0 
+        font-family: 'Gotham Pro'
+        font-size: 18px
+        font-weight: 700
+        line-height: 27px
+        letter-spacing: 0.05em
+        text-align: left
+
+
+      .price
+        padding: 10px 20px 7px 20px
+        width: 84px
+        border-radius: 5px
+        border: 2px solid $accent
+        color: $white
+        text-align: center
+        cursor: pointer
+        &:hover
+          background-color: $none-black
+
+    .active
+      display: block

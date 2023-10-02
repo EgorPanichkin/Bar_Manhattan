@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('GothamPro-Bold.eot');
+    src: url('GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('GothamPro-Bold.woff2') format('woff2'),
+        url('GothamPro-Bold.woff') format('woff'),
+        url('GothamPro-Bold.ttf') format('truetype'),
+        url('GothamPro-Bold.svg#GothamPro-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stolzl';
+    src: url('Stolzl-Regular.eot');
+    src: url('Stolzl-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Stolzl-Regular.woff2') format('woff2'),
+        url('Stolzl-Regular.woff') format('woff'),
+        url('Stolzl-Regular.ttf') format('truetype'),
+        url('Stolzl-Regular.svg#Stolzl-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stolzl Book';
+    src: url('Stolzl-Book.eot');
+    src: url('Stolzl-Book.eot?#iefix') format('embedded-opentype'),
+        url('Stolzl-Book.woff2') format('woff2'),
+        url('Stolzl-Book.woff') format('woff'),
+        url('Stolzl-Book.ttf') format('truetype'),
+        url('Stolzl-Book.svg#Stolzl-Book') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('GothamPro-Black.eot');
+    src: url('GothamPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('GothamPro-Black.woff2') format('woff2'),
+        url('GothamPro-Black.woff') format('woff'),
+        url('GothamPro-Black.ttf') format('truetype'),
+        url('GothamPro-Black.svg#GothamPro-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+

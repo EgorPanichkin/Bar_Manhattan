@@ -1,0 +1,357 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Stolzl", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  background-color: #210E09;
+}
+
+.head {
+  padding-top: 30px;
+}
+
+.head .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 1305px;
+}
+
+.container--small {
+  width: 1078px;
+  margin: 0 auto;
+}
+
+.booking-box {
+  position: relative;
+}
+.booking-box__form {
+  display: none;
+  position: absolute;
+  z-index: 100;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px 0;
+  width: 400px;
+  height: 400px;
+  background-color: #210E09;
+  border-radius: 10px;
+  border: 2px solid #D5621D;
+  left: -210px;
+  top: 60px;
+}
+.booking-box__form div {
+  text-align: center;
+  font-size: 1.3rem;
+}
+.booking-box__form div p {
+  margin-bottom: 20px;
+}
+.booking-box__form input {
+  width: 350px;
+  height: 50px;
+  background-color: rgba(213, 98, 29, 0.1019607843);
+  border-radius: 5px;
+  border: 2px solid #D5621D;
+  text-align: left;
+  padding-left: 10px;
+  color: #ffffff;
+  font-family: "Stolzl";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.7px;
+}
+.booking-box__form button {
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: 2px solid #D5621D;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Stolzl";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+}
+.booking-box__form button:hover {
+  background-color: rgba(213, 98, 29, 0.1019607843);
+}
+
+.booking {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 188px;
+  height: 51px;
+  padding: 15px 30px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 10px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 5px;
+  border: 2px solid #D5621D;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+.booking:hover {
+  background-color: rgba(213, 98, 29, 0.1019607843);
+}
+
+.booking span {
+  color: #ffffff;
+  font-family: "Stolzl";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 559px;
+  height: 21px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 30px;
+}
+.nav a:hover {
+  color: #D5621D;
+}
+
+.heading--center {
+  text-align: center;
+}
+
+.footer__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 24px;
+  padding-bottom: 100px;
+  margin: 80px auto 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.504);
+}
+
+.footer__left {
+  padding: 50px;
+  border-radius: 5px;
+  border: 2px solid #D5621D;
+  background: rgba(213, 98, 29, 0.1);
+}
+
+.footer__heading {
+  margin-bottom: 20px;
+  color: #FFF;
+  font-family: "Gotham Pro";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+}
+
+.footer__text {
+  margin-bottom: 35px;
+  color: #FFF;
+  /* p/14r */
+  font-family: "Stolzl";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.map {
+  border-radius: 5px;
+  border: 2px solid #D5621D;
+  width: 856px;
+  background-image: url(../img/map.jpg);
+  background-position: top center;
+  background-size: cover;
+}
+
+.copy {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  color: rgba(255, 255, 255, 0.504);
+}
+
+.top {
+  margin: 0 auto 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 38px;
+  width: 244px;
+  left: 189px;
+  padding: 10px, 20px, 7px, 20px;
+  border-radius: 5px;
+  gap: 10px;
+  color: #210E09;
+  background-color: #ffffff;
+  font-family: Gotham Pro;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.kitchen {
+  margin-top: 55px;
+}
+.kitchen .container {
+  margin-bottom: 165px;
+}
+.kitchen .heading {
+  text-align: center;
+  margin-bottom: 80px;
+  font-family: "Gotham Pro";
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.kitchen .menu_box {
+  width: 1076px;
+  margin: 0 auto 96px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 56px 104px;
+}
+.kitchen .menu_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 486px;
+  height: 111px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 25px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+.kitchen .menu_item img {
+  width: 110px;
+  height: 110px;
+}
+.kitchen .menu_item .text {
+  position: relative;
+}
+.kitchen .menu_item .text h3 {
+  margin-bottom: 5.5px;
+  color: #FFF;
+  font-family: "Gotham Pro";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+}
+.kitchen .menu_item .text .weight {
+  margin-bottom: 10px;
+  color: #D5621D;
+  font-family: "Stolzl";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.kitchen .menu_item .text p {
+  color: #ffffff;
+  font-family: "Stolzl";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.kitchen .menu_item .text .price {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px 20px 7px 20px;
+  border-radius: 5px;
+  border: 2px solid #D5621D;
+  color: #ffffff;
+  text-align: center;
+  /* other/14b-ttu-5% */
+  font-family: "Gotham Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+}
